@@ -1,0 +1,31 @@
+*{
+	background-color: lightgreen;
+}
+.buttons{
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+.buttons a{
+	margin-left: 35px;
+	border-style: dotted;
+	border-width: 2px;
+	text-decoration: none;
+	color:black;
+	background-color: lightblue;
+}
+.buttons a:hover{
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+.map{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.text{
+	font-size: 35px;
+	display: flex;
+	width: 80%;
+	margin-left: 10%;
+}
